@@ -1,0 +1,19 @@
+{
+  "name": "deploy_netlify",
+  "version": "1.0.0",
+  "description": "studying how to deploy express app on netlify",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
+    "webpack": "^5.76.3"
+  }
+}
